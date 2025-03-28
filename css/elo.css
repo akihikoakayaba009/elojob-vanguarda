@@ -1,0 +1,274 @@
+.section-header-elo {
+    background: url(../img/backgrounds/Background-elo.png);
+    background-position: center;
+    background-size: cover;
+    height: 20rem;
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.body-elo-title.subtitle h4
+{
+    display: flex;
+    align-items: center;
+}
+
+.faixa-lol {
+
+    display: flex;
+    align-content: end;
+    height: 150px;
+    background: #161717c2;
+
+
+    border-top: 1px solid rgba(255, 255, 255, .1);
+}
+
+#desconto small {
+    color: #007ed0;
+}
+
+.section-header-elo::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+.obs {
+
+    display: flex;
+    justify-content: center;
+}
+
+.section-header-elo .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.faixa-lol .container .row,
+.faixa-lol .container .row .gm {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.section-header-elo .title {
+
+    color: white;
+
+}
+
+
+.section-calc {
+
+
+    width: 100%;
+
+    color: white;
+    padding-bottom: 3rem;
+    padding-top: 2rem;
+
+}
+
+
+.title-calc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.title-calc h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.title-calc p, .section-info p{
+    font-size: 15px;
+
+    font-weight: inherit;
+    text-transform: none;
+}
+
+.body-elo-title {
+    display: grid;
+    justify-content: center;
+
+}
+
+.numero-title {
+    background: #007ed0;
+    box-shadow: 0 0 2em #007ED0;
+    border-radius: 50%;
+    color: white;
+    width: 14px;
+    display: flex;
+  padding: 1rem;
+  align-items: center;
+  justify-content: center;
+    height: 14px;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.img-body-elo {
+    text-align: center;
+}
+
+.img-body-elo img {
+
+    max-height: 200px;
+}
+
+.body-elo-select {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: center;
+}
+
+.body-elo-select .form {
+    max-width: 220px;
+
+}
+
+.form-group select {
+    height: 3.5rem;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+
+}
+
+.bgk-icon-select {
+    box-shadow: 0 0 2em #007ED0;
+    background: #007ED0;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5rem;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.icon-select i {
+    color: white;
+}
+
+.icon-sel {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+#valor small {
+    font-size: 20px;
+}
+
+
+#desconto small {
+    font-size: 20px;
+    text-decoration: line-through;
+}
+
+
+.row.price {
+    display: flex;
+    justify-content: center;
+
+    flex-direction: column;
+    text-align: center;
+
+    height: 220px;
+}
+
+.nota {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+
+}
+
+.nota p {
+    width: 30rem;
+    border: 1px solid black;
+    margin: 0;
+    padding: 1rem;
+    border-radius: 7px;
+
+}
+
+.section-info {
+
+    width: 100%;
+    height: auto;
+    color: white;
+    position: relative;
+    z-index: 1;
+    padding-bottom: 3rem;
+    padding-top: 5rem;
+
+}
+
+
+.alert {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.flash{
+    width: 50px;
+    margin: 0.5rem;
+}
+
+label#flashD   {
+    margin-left: 2rem;
+    
+}
+ 
+
+.form-group .radio {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.destaque{
+    color: #007ED0;
+}
