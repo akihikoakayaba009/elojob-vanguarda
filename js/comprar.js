@@ -361,7 +361,7 @@ function md5() {
 
   text = window.encodeURIComponent(text);
   var url =
-    `https://${type}.whatsapp.com/send?1=pt_BR&phone=557199545176&text=`.concat(
+    `https://${type}.whatsapp.com/send?1=pt_BR&phone=5521981051185&text=`.concat(
       text
     );
 
